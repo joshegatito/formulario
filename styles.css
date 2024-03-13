@@ -97,7 +97,7 @@ button:hover {
 @media only screen and (max-width: 400px) {
     /* Estilos para el título personalizado en dispositivos móviles */
     .custom-h2 {
-        font-size: 0.5em; /* Reducir el tamaño del texto del título */
+        font-size: 16px; /* Reducir el tamaño del texto del título */
     }
     .container {
         padding: 20px; /* Reducir el espacio de relleno en dispositivos móviles */
