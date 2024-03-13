@@ -94,7 +94,7 @@ button:hover {
 }
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .container {
         padding: 20px; /* Reducir el espacio de relleno en dispositivos móviles */
         background-size: 130px 130px; /* Ajusta el tamaño del fondo para cubrir todo el contenedor */
