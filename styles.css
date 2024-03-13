@@ -102,6 +102,6 @@ button:hover {
     .container {
         padding: 20px; /* Reducir el espacio de relleno en dispositivos móviles */
         background-size: 105px 105px; /* Ajusta el tamaño del fondo para cubrir todo el contenedor */
-        background-position: 200px 3px; /* Posiciona la imagen de fondo */
+        background-position: 220px 3px; /* Posiciona la imagen de fondo */
     }
 }
