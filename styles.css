@@ -1,0 +1,94 @@
+/* Estilos para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Familia de fuentes predeterminada */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 500px; /* Establece el ancho máximo del contenedor */
+    margin: 50px auto; /* Centra el contenedor horizontalmente en la página */
+    padding: 30px; /* Añade espacio de relleno alrededor del contenido del contenedor */
+    background-image: url('imagenes/independencia.jpg'); /* URL de la imagen de fondo */
+    background-size: 150px 150px; /* Ajusta el tamaño del fondo para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: 400px 3px; /* Posiciona la imagen de fondo */
+    border: 1px solid #ddd; /* Establece un borde sólido de 1 píxel con un color gris claro */
+    border-radius: 10px; /* Agrega esquinas redondeadas al contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al contenedor */
+}
+
+/* Estilos para las etiquetas de formulario */
+label {
+    display: block; /* Hace que las etiquetas sean elementos de bloque, para que estén en su propia línea */
+    margin-bottom: 10px; /* Añade espacio entre cada etiqueta y el elemento de entrada asociado */
+    font-weight: bold; /* Hace que el texto de la etiqueta sea más audaz */
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"] {
+    width: 100%; /* Establece el ancho del campo de entrada de texto al 100% del contenedor */
+    padding: 12px; /* Añade espacio de relleno alrededor del contenido del campo de entrada de texto */
+    margin-bottom: 20px; /* Añade espacio entre cada campo de entrada de texto */
+    border: 1px solid #ccc; /* Agrega un borde delgado */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    transition: border-color 0.3s ease; /* Agrega una transición suave al color del borde */
+}
+
+/* Estilos para cuando el campo de entrada de texto está enfocado */
+input[type="text"]:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando el campo de texto está enfocado */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007bff; /* Establece el color de fondo del botón */
+    color: #fff; /* Establece el color del texto del botón */
+    padding: 12px 24px; /* Añade espacio de relleno alrededor del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor del mouse al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+/* Estilos para cuando se pasa el mouse sobre el botón */
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+/* Estilos para el campo de selección de nivel */
+.field select {
+    width: calc(100% - 24px); /* Establece el ancho del campo de selección */
+    padding: 12px; /* Añade espacio de relleno alrededor del contenido del campo de selección */
+    margin-bottom: 20px; /* Añade espacio entre cada campo de selección */
+    border: 1px solid #ccc; /* Agrega un borde delgado */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    transition: border-color 0.3s ease; /* Agrega una transición suave al color del borde */
+    -webkit-appearance: none; /* Elimina la apariencia predeterminada del campo de selección en Chrome y Safari */
+    -moz-appearance: none; /* Elimina la apariencia predeterminada del campo de selección en Firefox */
+    appearance: none; /* Elimina la apariencia predeterminada del campo de selección */
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/svgs/solid/caret-down.svg'); /* Agrega una imagen de flecha hacia abajo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: right 12px center; /* Posiciona la imagen de flecha hacia abajo */
+    background-size: 16px; /* Establece el tamaño de la imagen de flecha hacia abajo */
+}
+
+/* Estilos para cuando el campo de selección de nivel está enfocado */
+.field select:focus {
+    border-color: #007bff; /* Cambia el color del borde cuando el campo de selección está enfocado */
+}
+
+.custom-h2 {
+    color: #868e96 !important; /* Establece el color del texto (importante para sobrescribir estilos heredados) */
+}
+
+/* Estilos para el texto del pie de página */
+.footer-text {
+    text-align: center; /* Alinea el texto al centro */
+    color: #868e96 !important; /* Establece el color del texto (importante para sobrescribir estilos heredados) */
+}
+
+/* Estilos para el contenedor del pie de página */
+.footer-div {
+    margin-top: 2rem; /* Añade espacio en la parte superior del contenedor */
+    padding-bottom: 1rem; /* Añade espacio de relleno en la parte inferior del contenedor */
+}

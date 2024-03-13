@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Abre el elemento raíz del documento HTML y especifica el idioma de la página -->
+<head>
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres utilizada en el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define cómo se escalará y ajustará la página en diferentes dispositivos -->
+    <title>Formulario de Estudiantes</title> <!-- Define el título de la página que aparecerá en la pestaña del navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza la hoja de estilos externa que contiene las reglas de estilo para la página web -->
+    <!--codigo para icono de la pagina-->
+    <link rel="icon" sizes="192x192" href="https://code.visualstudio.com/favicon.ico">
+    <link rel="shortcut icon" href="https://code.visualstudio.com/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="https://code.visualstudio.com/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container"> <!-- Contenedor principal de la página -->
+        <h2 class="custom-h2">Registro de Estudiantes <br> "Colegio Independencia"</h2> <!-- Encabezado de nivel 2 para indicar que es una página de registro -->
+
+        <!-- Formulario de registro -->
+        <form id="registrationForm">
+            <label for="firstName">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
+            <input type="text" id="firstName" name="firstName" required> <!-- Campo de entrada de texto para el nombre -->
+            
+            <label for="lastName">Apellido:</label> <!-- Etiqueta para el campo de apellido -->
+            <input type="text" id="lastName" name="lastName" required> <!-- Campo de entrada de texto para el apellido -->
+
+            <div class="field">
+                <label for="firstNameLevel">Nivel Secundario:</label> <!-- Etiqueta para el campo de nivel -->
+                <select id="firstNameLevel" name="firstNameLevel"> <!-- Campo de selección para el nivel -->
+                    <option value="1">NIVEL 1</option> <!-- Opción para el nivel 1 -->
+                    <option value="3">NIVEL 3</option> <!-- Opción para el nivel 3 -->
+                    <option value="4">NIVEL 4</option> <!-- Opción para el nivel 4 -->
+                </select>
+            </div>
+
+            <!-- Botón para registrar usuario -->
+            <button type="button" onclick="registerUser()">Registrarse</button>
+
+            <!-- Botón para exportar a Excel -->
+            <button type="button" onclick="exportToExcel()">Exportar a Excel</button>
+        </form>
+
+        <div class="footer-div">
+            <p class= "footer-text">Creado ❤️ por Developer José Galván M. (Joshe Gatito)</p>
+        </div>
+
+    </div>
+
+    <!-- Agregar la biblioteca CryptoJS para el cifrado -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <!-- Incluir el script.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <!-- Incluye el archivo JavaScript que contiene las funciones para manejar el registro y la exportación a Excel -->
+    <script src="script.js"></script> 
+</body>
+</html>
